@@ -27,7 +27,7 @@
 const float FFX_PI = 3.141592653589793f;
 
 /// An epsilon value for floating point numbers.
-const float FFX_EPSILON = 1e-06f;
+const float FFX_EPSILON = 1e-07f;
 
 /// Helper macro to create the version number.
 #define FFX_MAKE_VERSION(major, minor, patch) ((major << 22) | (minor << 12) | patch)
