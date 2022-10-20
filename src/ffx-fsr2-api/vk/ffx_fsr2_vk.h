@@ -42,7 +42,7 @@ extern "C" {
     /// @param [in] device                      A Vulkan device.
     /// @param [in] scratchBuffer               A pointer to a buffer of memory which can be used by the DirectX(R)12 backend.
     /// @param [in] scratchBufferSize           The size (in bytes) of the buffer pointed to by <c><i>scratchBuffer</i></c>.
-    /// @param [in] physicalDevice              The Vulkan physical device that FSR 2.0 will be executed on.
+    /// @param [in] physicalDevice              The Vulkan physical device that FSR 2.1 will be executed on.
     /// @param [in] getDeviceProcAddr           A function pointer to vkGetDeviceProcAddr which is used to obtain all the other Vulkan functions.
     /// 
     /// @retval
