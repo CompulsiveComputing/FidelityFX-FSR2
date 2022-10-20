@@ -883,13 +883,13 @@ float ffxFsr2GetUpscaleRatioFromQualityMode(FfxFsr2QualityMode qualityMode)
     switch (qualityMode) {
 
     case FFX_FSR2_QUALITY_MODE_QUALITY:
-        return 1.5f;
-    case FFX_FSR2_QUALITY_MODE_BALANCED:
-        return 1.7f;
-    case FFX_FSR2_QUALITY_MODE_PERFORMANCE:
         return 2.0f;
-    case FFX_FSR2_QUALITY_MODE_ULTRA_PERFORMANCE:
+    case FFX_FSR2_QUALITY_MODE_BALANCED:
+        return 2.5f;
+    case FFX_FSR2_QUALITY_MODE_PERFORMANCE:
         return 3.0f;
+    case FFX_FSR2_QUALITY_MODE_ULTRA_PERFORMANCE:
+        return 4.0f;
     default:
         return 0.0f;
     }
