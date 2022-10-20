@@ -210,7 +210,7 @@ If your application computes motion vectors in another space - for example norma
 // GPU: Example of application NDC motion vector computation
 float2 motionVector = (previousPosition.xy / previousPosition.w) - (currentPosition.xy / currentPosition.w);
 
-// CPU: Matching FSR 2.0 motionVectorScale configuration
+// CPU: Matching FSR 2.1 motionVectorScale configuration
 dispatchParameters.motionVectorScale.x = (float)renderWidth;
 dispatchParameters.motionVectorScale.y = (float)renderHeight;
 ```

@@ -38,7 +38,7 @@ class UpscaleContext_FSR2_API : public UpscaleContext
 public:
     UpscaleContext_FSR2_API(UpscaleType type, std::string name);
 
-    virtual std::string         Name() { return "FSR 2.0 API"; }
+    virtual std::string         Name() { return "FSR 2.1 API"; }
     virtual void                OnCreate(const FfxUpscaleInitParams& initParams);
     virtual void                OnDestroy();
     virtual void                OnCreateWindowSizeDependentResources(VkImageView input, VkImageView output, uint32_t renderWidth, uint32_t renderHeight, uint32_t displayWidth, uint32_t displayHeight, bool hdr);

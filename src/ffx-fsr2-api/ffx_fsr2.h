@@ -104,7 +104,7 @@ typedef struct FfxFsr2ContextDescription {
     uint32_t                    flags;                              ///< A collection of <c><i>FfxFsr2InitializationFlagBits</i></c>.
     FfxDimensions2D             maxRenderSize;                      ///< The maximum size that rendering will be performed at.
     FfxDimensions2D             displaySize;                        ///< The size of the presentation resolution targeted by the upscaling process.
-    FfxFsr2Interface            callbacks;                          ///< A set of pointers to the backend implementation for FSR 2.0.
+    FfxFsr2Interface            callbacks;                          ///< A set of pointers to the backend implementation for FSR 2.1.
     FfxDevice                   device;                             ///< The abstracted device which is passed to some callback functions.
 } FfxFsr2ContextDescription;
 

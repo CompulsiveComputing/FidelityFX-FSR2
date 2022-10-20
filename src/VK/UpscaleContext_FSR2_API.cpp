@@ -133,7 +133,7 @@ void UpscaleContext_FSR2_API::BuildDevUI(UIState* pState)
 {
     if (memoryUsageInMegabytes > 0) {
         char meminfo[256];
-        sprintf_s(meminfo, "FSR 2.0 GPU memory usage: %.2f MB", memoryUsageInMegabytes);
+        sprintf_s(meminfo, "FSR 2.1 GPU memory usage: %.2f MB", memoryUsageInMegabytes);
         pState->Text(meminfo);
     }
 
